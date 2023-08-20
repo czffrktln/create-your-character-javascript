@@ -1,0 +1,38 @@
+/* #25316D #97D2EC #5f6f94 #FEF5AC */
+
+* {
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #25316D;
+    color: #97D2EC;
+    min-height: 100vh;
+    /* border: 2px solid pink; */
+}
+
+.pageDiv {
+    /* border: 2px solid red; */
+    display: flex;
+}
+
+h1, h2, p {
+    text-align: center;
+}
+
+.leftSide, .rightSide {
+    width: 50%;
+    border: 2px solid #5f6f94;
+    padding-bottom: 5%;
+}
+
+label {
+    margin-left: 35%;
+}
+
+.pictures {
+    display: flex;
+    justify-content: space-evenly;
+}

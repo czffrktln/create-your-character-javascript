@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="script.js"></script>
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Create Your Character!</h1>
+    <div class="pageDiv">
+        <div class="leftSide">
+            <div>
+                <h2>Choose your character's...</h2>
+            </div>
+            <div>
+                <label for="characterName">NAME</label>
+                <input type="text" id="characterName" name="characterName" oninput="displayCharacterName()">
+            </div>
+            <div>
+                <label for="characterGender">GENDER</label>
+                <select id="characterGender" name="genderList" form="genderForm" onchange="displayGenderPicture()">
+                    <option value="none">Choose one!</option>
+                    <option value="female">Female</option>
+                    <option value="male">Male</option>
+                    <option value="other">Other</option>
+                </select>
+            </div>
+            <div>
+                <label for="characterRace">RACE</label>
+                <select id="characterRace" name="raceList" form="raceForm" onchange="displayRacePicture()">
+                    <option value="none">Choose one!</option>
+                    <option value="aarakocra">Aarakocra</option>
+                    <option value="bugbear">Bug Bear</option>
+                    <option value="deepgnome">Deep Gnome</option>
+                    <option value="dwarf">Dwarf</option>
+                </select>
+            </div>
+            <div>
+                <label for="characterClass">CLASS</label>
+                <select id="characterClass" name="classList" form="classForm" onchange="displayClassPicture()">
+                    <option value="none">Choose one!</option>
+                    <option value="barbarian">Barbarian</option>
+                    <option value="fighter">Fighter</option>
+                    <option value="monk">Monk</option>
+                    <option value="paladin">Paladin</option>
+                </select>
+            </div>
+        </div>
+
+        <div class="rightSide">
+            <div>
+                <h2>Your Character</h2>
+            </div>
+            <div>
+                <p id="charactersName"></p>
+            </div>
+            <div class="pictures">
+                <div id="genderPicture">
+                
+                </div>
+                <div id="racePicture">
+                
+                </div>
+                <div id="classPicture">
+                
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
