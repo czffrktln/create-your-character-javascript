@@ -34,10 +34,4 @@ None
 - Use the `input` event whenever you use an `input` field or a `select` tag for the purpose of catching the tags value change effect.
   Unlike the `change` event, the `input` is triggered whenever the value changed.
 
-## Background materials
 
-- <i class="far fa-exclamation"></i> [Input event](https://developer.mozilla.org/en-US/docs/Web/API/HTMLElement/input_event)
-- <i class="far fa-video"></i> [Introduction to DOM manipulation](https://www.youtube.com/watch?v=wiozYyXQEVk&ab_channel=DevEd)
-- <i class="far fa-exclamation"></i> [DOM manipulation](https://developer.mozilla.org/en-US/docs/Web/API/Document_Object_Model/Introduction)
-- <i class="far fa-exclamation"></i> [Javascript if/else](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/if...else)
-- [Sample for races and classes](https://5e.tools/)
